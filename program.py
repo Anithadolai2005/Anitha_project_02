@@ -13,7 +13,7 @@ from sklearn.tree import DecisionTreeClassifier
 from sklearn.metrics import confusion_matrix, accuracy_score, classification_report
 from sklearn.preprocessing import StandardScaler
 
-cvs_df = pd.read_csv("/content/synthetic_health_data.csv")
+cvs_df = pd.read_csv("synthetic_health_data.csv")
 
 # Initial Data Inspection
 cvs_df.head()
